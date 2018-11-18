@@ -1,0 +1,689 @@
+
+REM--------------------------------------------------------------------------------------------------------------------
+REM --------------------------------------INICIO MENU PRINCIPAL-----------------------------------------
+REM--------------------------------------------------------------------------------------------------------------------
+
+REM--------------------------------------------------------------------------------------------------------------------REM--------INICIO/FINAL *VARIABLE DEL MENU* *VARIABLE DE LA QUE PROVIENE*-----
+REM--------------------------------------------------------------------------------------------------------------------
+
+@echo off
+title MEMEVERSO 0.2 Beta
+
+:menuprincipal
+cls 
+echo.
+echo.
+echo   __  __  ____  __  __  ____  _  _  ____  ____  ___  _____ 
+echo  (  \ / )( ___)(  \/  )( ___)( \/ )( ___)(  _ \/ __)(  _  )
+echo   )    (  )__)  )    (  )__)  \  /  )__)  )   /\__ \ )(_)( 
+echo  (_/\/\_)(____)(_/\/\_)(____)  \/  (____)(_)\_)(___/(_____) Version 0.2 Beta 
+echo.                                                            
+echo Pulsa cualquier tecla para continuar
+pause>nul
+cls 
+echo.   
+echo       {-------------------------------------}
+echo       {       Bienvenido a MEMEVERSO        }
+echo       {-------------------------------------}         
+echo. 
+echo       (@) ____________________________ (@)
+echo       {-_[                            ]_-}
+echo       {  [   1. Frases celebres.      ]  }
+echo       {  [   2. Personajes, eventos...]  }
+echo       {  [   3. Memes anclados...     ]  }
+echo       {  [   4. Opciones              ]  }
+echo       (\ [   5. Acerca de...          ] /)
+echo         \[   6. Funciones adicionales ]/
+echo          [   7. Salir                 ]
+echo          [____________________________]
+echo.
+set /p menu1= Elije una opcion escribiendo el numero asociado === 
+
+if %menu1%==1 goto frasescelebres
+if %menu1%==2 goto eventos
+if %menu1%==3 goto memesanclados 
+if %menu1%==4 goto opciones
+if %menu1%==5 goto acercade
+if %menu1%==6 goto funcionadicional
+if %menu1%==7 salir
+
+:ninguna1
+cls
+echo.
+echo Ninguna tecla coincide con la verga a la que quieres ir
+echo Por favor, reintentalo
+echo                      __
+echo                     .'  '.
+echo                 _.-'/  }  \
+echo    ,        _.-"  ,{  /  0 `-.
+echo    {\    .-"       `--**-.__.'_____________________-,
+echo    \ '-'`        .___.--._)_________________________
+echo     \            .'      {                          }
+echo      }     /,_.-'        {     Nada                 }
+echo    _/   _.'(             {        por aqui          }
+echo   /  ,-' \  \            {              amigou      }
+echo   \  \    `-'            {                   :)     }
+echo    `-'                   '--------------------------'
+pause>nul
+goto menuprincipal
+
+REM--------------------------------------------------------------------------------------------------------------------
+REM--------------------------------FINAL DEL MENU PRINCIPAL-------------------------------------------
+REM--------------------------------------------------------------------------------------------------------------------
+
+REM--------------------------------------------------------------------------------------------------------------------
+REM ----------------------INICIO FRASESCELEBRES MENUPRINCIPAL-----------------------------
+REM--------------------------------------------------------------------------------------------------------------------
+
+:frasescelebres
+cls 
+echo Elije un personaje
+echo.
+echo 1. Gabri
+echo 2. Folgue
+echo 3. Rodrox
+echo 4. ArKoZ
+echo 5. Dobshman 
+echo 6. Salir al menu principal
+
+set /p menu2=Elije una opcion escribiendo el numero asociado
+
+if %menu2%==1 goto frasesgabri
+if %menu2%==2 goto frasesfolgue
+if %menu2%==3 goto frasesrodrox
+if %menu2%==4 goto frasesarkoz
+if %menu2%==5 goto frasesdobshman
+if %menu2%==6 goto menuprincipal
+if %menu2%==02 goto easteregg
+
+
+:ninguna1
+cls
+echo.
+echo Ninguna tecla coincide con la verga a la que quieres ir
+echo Por favor, reintentalo
+echo                      __
+echo                     .'  '.
+echo                 _.-'/  }  \
+echo    ,        _.-"  ,{  /  0 `-.
+echo    {\    .-"       `--**-.__.'_____________________-,
+echo    \ '-'`        .___.--._)_________________________
+echo     \            .'      {                          }
+echo      }     /,_.-'        {     Vete                 }
+echo    _/   _.'(             {        a   otra          }
+echo   /  ,-' \  \            {              parte      }
+echo   \  \    `-'            {                   :)     }
+echo    `-'                   '--------------------------'
+pause>nul
+goto frasescelebres
+
+
+:ninguna1
+cls
+echo.
+echo Ninguna tecla coincide con la verga a la que quieres ir
+echo
+pause>nul
+goto frasescelebres
+
+:frasesgabri
+cls
+echo *****FRASES CELEBRES DE GABRI***** 
+echo.
+echo 1. Vale folgue que hacemos
+echo 2. If she breath, she thot
+echo 3. ALEXIAAA!
+echo 4. Me gusta Folga
+echo 5. I like my women how i like my meat, beat the fuck up.
+echo.
+echo Pulsa ENTER para continuar...
+pause>nul
+goto frasescelebres
+
+:frasesfolgue
+cls
+echo *****FRASES CELEBRES DE FOLGUE*****
+echo.
+echo 1. Callese viejo LESBICO
+echo 2. Sois todos unos gays de mierda
+echo 3. Sexo anal city
+echo 4. G2A ur mom gay
+echo 5. Eso son las torres gemelas
+echo 6. Escuchar a XXX tentation es como escuchar audios de tu abuela muerta
+echo.
+echo Pulsa ENTER para continuar
+pause>nul
+goto frasescelebres
+
+:frasesrodrox
+cls
+echo *****FRASES CELEBRES DE RODROX*****
+echo.
+echo 1. OmG gUyS, I hAvE cAnCeR
+echo 2. Folgue... dududuududuudu Folgue duduudud (SHARK DOO DOO MUSIC)
+echo 3. Hello guys Joey Salads here, and today we are gonna be hitting a woman till the death!!
+echo 4. En serio no puedo darle un vergaso a esto??
+echo 5. Me meto con scaut a roto ok??
+echo 6. Hit or miss , she took the fuking kids huh
+echo 7. Alexa pon Despacito/Megalovania/NeverGonnaGiveYouUp
+echo.
+echo Pulsa ENTER para continuar...
+pause>nul
+goto frasescelebres
+
+:frasesarkoz
+cls
+echo *****FRASES CELEBRES DE ARKOZ*****
+echo.
+echo 1. pantumacatutonois
+echo 2. Ahora vengo, voy  por cereales
+echo 3. Voy a hacer spawnpeek 
+echo 4. *hace ruido para molestar en CSGO*
+echo 5. *sueco sounds*
+echo 6. VES a comerte una verga
+echo.
+echo Pulsa ENTER para continuar...
+pause>nul
+goto frasescelebres
+
+:frasesdobshman
+cls
+echo.
+echo *****FRASES DE DOBSHMAN*****
+echo.
+echo 1. Lo que mas me gusta de la navidad son los suicidios.
+echo 2. A PPPMPMPMPPPMPM PMP MP 
+echo.
+echo Pulsa ENTER para continuar...
+pause>nul 
+goto menuprincipal
+
+REM--------------------------------------------------------------------------------------------------------------------
+REM-----------------------FINAL FRASES CELEBRES MENU PRINCIPAL-----------------------------
+REM--------------------------------------------------------------------------------------------------------------------
+
+REM--------------------------------------------------------------------------------------------------------------------
+REM--------------------------IINICIO EVENTOS MENU PRINCIPAL---------------------------------------
+REM--------------------------------------------------------------------------------------------------------------------
+
+:eventos
+cls
+echo.
+echo Personajes:
+echo  / Gabri 
+echo  / Rodrox 
+echo  / ArKoZ 
+echo  / Folgue 
+echo  / Wismy (todavia no disponible)
+echo  / Parca (Desterrado, todavia esta en proceso si permanentemente o temporalmente)
+echo Eventos:
+echo  / Spooktober (10/2018)
+echo  / MEMEVERSO ha salido de la pre-alpha y ya es beta! (27/10/2018)
+echo  / No-Nut-November (11/2018)
+echo.
+echo Pulsa ENTER para continuar...
+pause>nul 
+goto menuprincipal
+
+REM--------------------------------------------------------------------------------------------------------------------
+REM----------------------------FINAL EVENTOS MENU PRINCIPAL--------------------------------------
+REM--------------------------------------------------------------------------------------------------------------------
+
+REM--------------------------------------------------------------------------------------------------------------------
+REM-------------------------INICIO ACERCA DE MENU PRINCIPAL-------------------------------------
+REM--------------------------------------------------------------------------------------------------------------------
+
+:acercade
+cls 
+echo Version de MEMEVERSO: 0.2 Beta  
+echo Fecha de salida de la version: 10/2018
+echo Codeado por Folgue y Rodrox
+echo.
+echo 1. Buscar actualizaciones de MEMEVERSO en la pagina oficial
+echo 2. Volver al menu principal
+echo.
+
+set /p menu3= Elije una opcion escribiendo el numero asociado
+
+if %menu3%==1 start https://davidfolru.wixsite.com/memeversoofisial/aplicacion-de-memeverso
+if %menu3%==2 goto menuprincipal
+goto menuprincipal
+
+:ninguna1
+cls
+echo.
+echo Ninguna tecla coincide con la verga a la que quieres ir
+echo Por favor, reintentalo
+echo                      __
+echo                     .'  '.
+echo                 _.-'/  }  \
+echo    ,        _.-"  ,{  /  0 `-.
+echo    {\    .-"       `--**-.__.'_____________________-,
+echo    \ '-'`        .___.--._)_________________________
+echo     \            .'      {                          }
+echo      }     /,_.-'        {     Aqui                 }
+echo    _/   _.'(             {        no hay esa        }
+echo   /  ,-' \  \            {          informacion     }
+echo   \  \    `-'            {                   :)     }
+echo    `-'                   '--------------------------'
+pause>nul
+goto acercade
+
+REM--------------------------------------------------------------------------------------------------------------------
+REM-----------------------FINAL ACERCA DE MENU PRINCIPAL----------------------------------------
+REM--------------------------------------------------------------------------------------------------------------------
+
+REM--------------------------------------------------------------------------------------------------------------------
+REM-----------------------INICIO OPCIONES MENU PRINCIPAL-----------------------------------------
+REM--------------------------------------------------------------------------------------------------------------------
+
+:opciones 
+cls 
+echo.
+echo Opciones
+echo.
+echo 1. Color
+echo 2. Salir
+
+set /p opcionesmenu= Elije una opcion escribiendo el numero asociado a ella...
+
+if %opcionesmenu%==1 goto opcionescolor
+if %opcionesmenu%==2 goto menuprincipal
+
+:opcionescolor
+cls
+echo.
+echo Opciones/Color
+echo.
+echo 1. Rojo claro
+echo 2. Verde
+echo 3. Verde claro
+echo 4. Amarillo
+echo 5. Blanco
+echo 6. Blanco brillante
+echo 7. Purpura
+echo 8. Azul 
+echo 9. Azul claro
+echo 10. Aguamarina
+echo 11. Aguamarina claro
+echo 12. Volver
+
+set /p opcionesmenucolormenu= Elije una opcion escribiendo el numero asociado con ella...
+
+if %opcionesmenucolormenu%==1 color c 
+if %opcionesmenucolormenu%==2 color 2 
+if %opcionesmenucolormenu%==3 color a 
+if %opcionesmenucolormenu%==4 color 6
+if %opcionesmenucolormenu%==5 color 7
+if %opcionesmenucolormenu%==6 color f 
+if %opcionesmenucolormenu%==7 color 5
+if %opcionesmenucolormenu%==8 color 1 
+if %opcionesmenucolormenu%==9 color 9
+if %opcionesmenucolormenu%==10 color 3
+if %opcionesmenucolormenu%==11 color b
+if %opcionesmenucolormenu%==12 goto opciones
+echo Pulsa ENTER para continuar...
+pause>nul
+goto menuprincipal
+
+REM--------------------------------------------------------------------------------------------------------------------
+REM--------------------------FINAL OPCIONES MENU PRINCIPAL---------------------------------------
+REM--------------------------------------------------------------------------------------------------------------------
+
+REM--------------------------------------------------------------------------------------------------------------------
+REM-------------------INICIO MEMES ANCLADOS MENU PRINCIPAL---------------------------------
+REM--------------------------------------------------------------------------------------------------------------------
+
+:memesanclados
+cls
+echo.
+echo 1. Cursed images
+echo 2. Shitpost
+echo 3. Hilarious images
+echo 4. MEME-STORM
+echo 5. Salir al menu principal
+
+set /p memesancladosmenu= Elije una opcion escribiendo el numero asociado con ella...
+
+if %memesancladosmenu%==1 goto memesancladoscursed
+if %memesancladosmenu%==2 goto memesancladosshitpost
+if %memesancladosmenu%==3 goto memesancladosgraciosos
+if %memesancladosmenu%==4 goto memestorm 
+if %memesancladosmenu%==5 goto menuprincipal
+
+:memesancladoscursed 
+cls
+echo.
+echo Escribe un numero entre 1-10 para encontrar un meme (11 para volver al menu principal)
+echo.
+set /p memesancladosmenu2= -_-_-_-_-_-_-_-_-_-_-_-_
+
+if %memesancladosmenu2%==1 start https://cdn.discordapp.com/attachments/479569356586614794/490920110979285007/these-images-are-cursed-24.png
+if %memesancladosmenu2%==2 start https://cdn.discordapp.com/attachments/479569356586614794/490920621195264001/CwJtpLrUMAAIc_N.png
+if %memesancladosmenu2%==3 start https://cdn.discordapp.com/attachments/479569356586614794/490919164555558913/tumblr_p5z8918sc01x8aauno1_1280.png
+if %memesancladosmenu2%==4 start https://media.discordapp.net/attachments/479569356586614794/505823046662094888/JPEG_20181027_211959.jpg?width=507&height=676
+if %memesancladosmenu2%==5 start https://cdn.discordapp.com/attachments/479569356586614794/490919040865271848/b4gcrydourg01.png
+if %memesancladosmenu2%==6 start https://cdn.discordapp.com/attachments/479569356586614794/490919302644629507/rFjcOpH.png
+if %memesancladosmenu2%==7 start https://cdn.discordapp.com/attachments/479569356586614794/490919421431513129/jk7i51l8vm111.png
+if %memesancladosmenu2%==8 start https://cdn.discordapp.com/attachments/479569356586614794/490920235298324520/cursed-images0.png
+if %memesancladosmenu2%==9 start https://cdn.discordapp.com/attachments/479569356586614794/490920339795345418/tumblr_p7ewm8KBhn1x8aauno1_1280.png
+if %memesancladosmenu2%==10 start https://cdn.discordapp.com/attachments/479569356586614794/490920067790274561/images.png
+if %memesancladosmenu2%==11 goto menuprincipal
+goto memesancladoscursed 
+
+:memesancladosshitpost
+cls
+echo.
+echo Escribe un numero entre 1-10 para encontrar un meme (11 para volver al menu principal)
+echo.
+
+set /p memesancladosmenu3= -_-_-_-_-_-_-_-_-_-_-_-_
+
+if %memesancladosmenu3%==1 start https://cdn.discordapp.com/attachments/479569356586614794/505820694467051542/20180825_203418.jpg
+if %memesancladosmenu3%==2 start https://cdn.discordapp.com/attachments/479569356586614794/505820694467051540/20180825_203341.jpg
+if %memesancladosmenu3%==3 start https://cdn.discordapp.com/attachments/479569356586614794/505820696148967425/20181004_204525.jpg
+if %memesancladosmenu3%==4 start https://cdn.discordapp.com/attachments/479569356586614794/505820696635768832/20180828_145010.jpg
+if %memesancladosmenu3%==5 start https://cdn.discordapp.com/attachments/479569356586614794/505820695696113666/20180825_203441.jpg
+if %memesancladosmenu3%==6 start https://cdn.discordapp.com/attachments/479569356586614794/503209280053313546/roblox.png 
+if %memesancladosmenu3%==7 start https://cdn.discordapp.com/attachments/479569356586614794/490919660678545408/40079367_584425218640591_380543349490188288_n.png
+if %memesancladosmenu3%==8 start https://cdn.discordapp.com/attachments/479569356586614794/493869154546221066/unknown.png
+if %memesancladosmenu3%==9 start https://cdn.discordapp.com/attachments/479569356586614794/505822466418147337/JPEG_20181027_211741.jpg
+if %memesancladosmenu3%==10 start https://cdn.discordapp.com/attachments/479569356586614794/505822262486761472/JPEG_20181027_211653.jpg
+if %memesancladosmenu3%==11 goto menuprincipal
+goto memesancladosshitpost 
+
+:memesancladosgraciosos
+cls 
+echo.
+echo Escribe un numero 1-10 para encontrar un meme (11 para volver al menu principal)
+echo.
+set /p memesancladosmenu4= -_-_-_-_-_-_-_-_-_-_-_-_
+
+if %memesancladosmenu4%==1 start https://cdn.discordapp.com/attachments/479569356586614794/505699287665999888/Screenshot_20181027-130811_Instagram.jpg
+if %memesancladosmenu4%==2 start https://cdn.discordapp.com/attachments/479569356586614794/505823756854493184/JPEG_20181027_212249.jpg
+if %memesancladosmenu4%==3 start https://cdn.discordapp.com/attachments/479569356586614794/498530922837180454/20181007_182343.jpg
+if %memesancladosmenu4%==4 start https://i.redd.it/c9y3katg1qu11.jpg
+if %memesancladosmenu4%==5 start https://i.redd.it/0cwaiouf3ou11.png
+if %memesancladosmenu4%==6 start https://i.redd.it/j3d81cg0bpu11.jpg
+if %memesancladosmenu4%==7 start https://i.redd.it/otvzoi15ilu11.png
+if %memesancladosmenu4%==8 start https://i.redd.it/au6mo8an6ou11.jpg
+if %memesancladosmenu4%==9 start https://i.redd.it/gwv9z60itnu11.jpg
+if %memesancladosmenu4%==10 start https://i.redd.it/g1om2rjjxou11.jpg
+if %memesancladosmenu4%==11 goto menuprincipal  
+goto memesancladosgraciosos
+
+:memestorm 
+cls
+echo ?Estas seguro de hacer eso?
+echo Si tu ordenador explota no nos hacemos responsables :/
+echo.
+echo 1. Si
+echo 2. No (volver al menu principal)
+
+set /p memestorm= Elije una opcion escribiendo el numero asciado con ella...
+
+if %memestorm%==1 goto memestormaceptar
+if %memestorm%==2 goto menuprincipal
+
+:memestormaceptar
+cls 
+echo.
+start  https://cdn.discordapp.com/attachments/479569356586614794/505699287665999888/Screenshot_20181027-130811_Instagram.jpg
+start https://cdn.discordapp.com/attachments/479569356586614794/505823756854493184/JPEG_20181027_212249.jpg
+start https://i.redd.it/c9y3katg1qu11.jpg
+start https://i.redd.it/0cwaiouf3ou11.png
+start https://i.redd.it/j3d81cg0bpu11.jpg
+start https://i.redd.it/otvzoi15ilu11.png
+start https://i.redd.it/au6mo8an6ou11.jpg
+start https://i.redd.it/gwv9z60itnu11.jpg
+start https://i.redd.it/g1om2rjjxou11.jpg
+start https://i.redd.it/g1om2rjjxou11.jpg
+start https://cdn.discordapp.com/attachments/479569356586614794/505820694467051542/20180825_203418.jpg
+start https://cdn.discordapp.com/attachments/479569356586614794/505820694467051540/20180825_203341.jpg
+start https://cdn.discordapp.com/attachments/479569356586614794/505820696148967425/20181004_204525.jpg
+start https://i.redd.it/j3d81cg0bpu11.jpg
+start https://i.redd.it/0cwaiouf3ou11.png
+start https://cdn.discordapp.com/attachments/479569356586614794/505820695696113666/20180825_203441.jpg
+start https://cdn.discordapp.com/attachments/479569356586614794/490919660678545408/40079367_584425218640591_380543349490188288_n.png
+start https://cdn.discordapp.com/attachments/479569356586614794/493869154546221066/unknown.png
+start https://cdn.discordapp.com/attachments/479569356586614794/505822262486761472/JPEG_20181027_211653.jpg
+start https://cdn.discordapp.com/attachments/479569356586614794/490920110979285007/these-images-are-cursed-24.png 
+start https://cdn.discordapp.com/attachments/479569356586614794/490920621195264001/CwJtpLrUMAAIc_N.png 
+start https://cdn.discordapp.com/attachments/479569356586614794/490919164555558913/tumblr_p5z8918sc01x8aauno1_1280.png
+start https://cdn.discordapp.com/attachments/479569356586614794/490919040865271848/b4gcrydourg01.png
+start https://cdn.discordapp.com/attachments/479569356586614794/490919302644629507/rFjcOpH.png
+start https://cdn.discordapp.com/attachments/479569356586614794/490919421431513129/jk7i51l8vm111.png
+start https://cdn.discordapp.com/attachments/479569356586614794/490920235298324520/cursed-images0.png
+start https://cdn.discordapp.com/attachments/479569356586614794/490920339795345418/tumblr_p7ewm8KBhn1x8aauno1_1280.png
+start https://cdn.discordapp.com/attachments/441590102934814720/513348813705052169/unknown.png
+echo Pulsa ENTER para continuar...
+pause>nul
+goto menuprincipal
+
+
+REM--------------------------------------------------------------------------------------------------------------------
+REM--------------------FINAL MEMES ANCLADOS MENU PRINCIPAL-------------------------------- 
+REM--------------------------------------------------------------------------------------------------------------------
+
+REM--------------------------------------------------------------------------------------------------------------------
+REM------------------------------EASTER EGG MENU PRINCIPAL----------------------------------------
+REM--------------------------------------------------------------------------------------------------------------------
+
+:easteregg
+cls
+echo.
+echo Has encontrado el easter egg!
+echo.
+echo Pulsa ENTER para empezar...
+pause>nul
+echo.
+echo.
+echo.
+echo.
+echo Ocurrio un error en la instalacion de ROBLOX.lnk
+echo Devolviendo a menuprincipal...
+timeout 5
+cls 
+goto menueasteregg
+
+:menueasteregg 
+cls
+echo.
+echo Bienvenido a MEMEVERSO 
+echo.
+echo 1.Frases celebres 
+echo 2.(Estara disponibles en la builds posteriores)
+echo 3. Acerca de MEMEVERSO 
+echo.
+echo Elije una opcion pulsando ENTER...
+pause>nul
+timeout 4
+cls
+echo
+echo  ___  ____   __    ___  __   __   ____                     
+echo / __)(  _ \ / _\  / __)(  ) / _\ / ___)                    
+echo( (_ \ )   //    \( (__  )( /    \\___ \                    
+echo \___/(__\_)\_/\_/ \___)(__)\_/\_/(____/                    
+echo ____   __  ____                                            
+echo(  _ \ /  \(  _ \                                           
+echo ) __/(  O ))   /                                           
+echo(__)   \__/(__\_)                                           
+echo ____  ____  ____   ___   __   ____   ___   __   ____       
+echo(    \(  __)/ ___) / __) / _\ (  _ \ / __) / _\ (  _ \      
+echo ) D ( ) _) \___ \( (__ /    \ )   /( (_ \/    \ )   /      
+echo(____/(____)(____/ \___)\_/\_/(__\_) \___/\_/\_/(__\_)      
+echo _  _  ____  _  _  ____  _  _  ____  ____  ____   __        
+echo( \/ )(  __)( \/ )(  __)/ )( \(  __)(  _ \/ ___) /  \       
+echo/ \/ \ ) _) / \/ \ ) _) \ \/ / ) _)  )   /\___ \(  O )      
+echo\_)(_/(____)\_)(_/(____) \__/ (____)(__\_)(____/ \__/   
+echo.
+echo.
+echo Pulsa ENTER para volver al menu principal
+msg * "Ojala te mueras de cancer ostia puta cabronazo de mierda"
+pause>nul  
+goto menuprincipal
+
+REM--------------------------------------------------------------------------------------------------------------------
+REM-------------------------FINAL EASTER EGG MENU PRINCIPAL------------------------------------
+REM--------------------------------------------------------------------------------------------------------------------
+
+REM--------------------------------------------------------------------------------------------------------------------
+REM-------------------INICIO FUNCION ADICIONAL MENU PRINCIPAL------------------------------
+REM--------------------------------------------------------------------------------------------------------------------
+
+:funcionadicional
+cls
+echo.
+echo.
+echo 1. Paginas web
+echo 2. Propiedades de los usuarios
+echo 3. Mas de MEMEVERSO
+echo 4. Ruleta de la suerte
+echo 5. Juegos
+echo 6. Volver al menu principal
+
+set /p funcionadicional= Elije una opcion escribiendo el numero asociado con ella  
+
+if %funcionadicional%==1 goto paginaweb
+if %funcionadicional%==2 goto usuariospropiedades
+if %funcionadicional%==3 goto masdememeverso
+if %funcionadicional%==6 goto menuprincipal
+if %funcionadicional%==4 goto ruletasuerte
+if %funcionadicional%==5 goto juegosmmvs 
+if %funcionadicional%==6 goto menuprincipal
+
+
+
+:paginaweb
+cls
+echo.
+echo.
+echo 1. Google
+echo 2. Isla Negros Canivales
+echo 3. Masturbacion Pornhub (fallar no nut november)
+echo 4. Musica de gente muerta de Rodrox
+echo 5. Volver al menú principal
+
+set /p paginaweb= Elije una opcion escribiendo el numero asociado con ella  
+
+if %paginaweb%==1 start www.google.es
+if %paginaweb%==2 start https://goo.gl/maps/VoHLvx7VTwD2
+if %paginaweb%==3 start www.pornhub.com/gay/
+if %paginaweb%==4 echo En desarrollo
+if %paginaweb%==5 goto menuprincipal
+
+
+
+
+
+
+:usuariospropiedades
+cls
+echo.
+echo.
+echo 1. Gabriel
+echo 2. ArKoZ
+echo 3. Folgue
+echo 4. Dobshman
+echo 5. Rodrox
+echo 6. Volver atras
+
+set /p usersproperties
+
+if %usersproperties%==1 goto gabrielpropiedades
+if %usersproperties%==2 goto arkozpropiedades
+if %usersproperties%==3 goto folguepropiedades
+if %usersproperties%==4 goto hugopropiedades
+if %usersproperties%==5 goto rodroxpropiedades
+if %usersproperties%==6 goto funcionadicional
+
+:gabrielpropiedades
+cls
+echo 1. Instagram
+echo 2. Volver al menu principal
+
+set /p gabrielpropiedades
+
+if %gabrielpropiedades%==1 start https://www.instagram.com/gaabriel_75/
+if %gabrielpropiedades%==2 goto menuprincipal
+goto funcionadicional
+
+:arkozpropiedades
+cls
+echo 1. Instagram
+echo 2. Twitter
+echo 3. Volver al menu principal
+
+set /p arkozpropiedades= Elije una opcion escribiendo el numero asociado con ella  
+
+if %arkozpropiedades%==1 start
+if %arkozpropiedades%==2 start https://twitter.com/ArKoZz_?lang=es
+if %arkozpropiedades%==3 goto menuprincipal
+
+:folguepropiedades
+cls
+echo 1. Instagram
+echo 2. Twitter
+echo 3. YouTube
+echo 4. Volver al menu principal
+
+set /p folguepropiedades= Elije una opcion escribiendo el numero asociado con ella 
+
+if %folguepropiedades%==1 start https://www.instagram.com/_arkoz/?hl=es
+if %folguepropiedades%==2 start https://twitter.com/Folgue_02
+if %folguepropiedades%==3 start https://www.youtube.com/channel/UCu9SSkjGRYTuRrpT8kq0VCQ?view_as=subscriber
+if %folguepropiedades%==4 goto menuprincipal
+
+:hugopropiedades
+cls
+echo 1. Instagram
+echo 2. Twitter
+echo 3. YouTube
+echo 4. Volver al menu principal
+
+set /p hugopropiedades= Elije una opcion escribiendo el numero asociado con ella 
+
+if %hugopropiedades%==1 start https://www.instagram.com/dobshman/
+if %hugopropiedades%==2 start https://twitter.com/Dobshman?lang=es
+if %hugopropiedades%==3 start https://www.youtube.com/channel/UC4pncBlim9VvDbWXXBgo5KA 
+if %hugopropiedades%==4 goto menuprincipal
+
+:rodroxpropiedades
+cls
+echo 1. Instagram
+echo 2. Twitter
+echo 3. YouTube
+echo 4.Volver al menu principal
+
+set /p rodroxpropiedades= Elije una opcion escribiendo el numero asociado con ella
+
+if %rodroxpropiedades%==1 start https://www.instagram.com/rodrigogallo_/
+if %rodroxpropiedades%==3 start https://www.youtube.com/channel/UCBHT4chDWuMMJ0D4vDQwWRQ
+if %rodroxpropiedades%==2 start https://twitter.com/Rodrox_gv?lang=es
+if %rodroxpropiedades%==4 goto menuprincipal
+
+:ruletasuerte
+cls
+echo En desarrollo…
+echo Pulsa cualquier tecla para volver al menu principal…
+pause>nul
+goto menuprincipal
+
+:juegosmmvs
+cls
+echo.
+echo Pulsa cualquier tecla para mostrar los juegos disponibles..
+pause>nul
+cls
+cd %cd%
+cd juegos
+dir
+set /p seleccionarjuego== Elije un juego escribiendo su nombre exacto con extension   
+start %seleccionarjuego%
+echo Pulsa cualquier tecla para volver al menu principal…
+pause>nul 
+goto menuprincipal
+ 
+REM--------------------------------------------------------------------------------------------------------------------
+REM--------------------FINAL FUNCIONADICIONAL MENUPRINCIPAL--------------------------------
+REM--------------------------------------------------------------------------------------------------------------------
